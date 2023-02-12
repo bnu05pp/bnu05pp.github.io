@@ -1,0 +1,119 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+a {
+    /* a是标签选择器 所有的链接 */
+   font-weight: 700;
+   font-size: 16px;
+   color: rgb(58, 58, 173);
+   /* 清除链接的下划线 */
+   text-decoration: none;
+}
+ 
+a:hover {
+    /* hover是链接伪选择器 鼠标经过颜色改变 */
+    color: rgb(236, 132, 46);
+}
+
+h1 {
+    color: brown;
+}
+h2 {
+    /* font-size: 18px; */
+    font-weight: 700;
+    font-style: normal;
+    color: brown;
+   }
+
+li {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(22, 17, 17, 0.788);
+    line-height: 2;
+    margin-top: 10px;
+    
+}
+
+.pengpeng1 {
+   font-size: 40px;
+   line-height: 80px;
+}
+
+/* 论文里的加粗字体 */
+.pengpeng2 {
+   font-weight: 700;
+}
+
+.brown {
+    color:brown
+}
+
+.prg {
+    font-size: 18px;
+    font-style: normal;
+    line-height: 24px; 
+} 
+
+/* 第一个table的边距 */
+.div1 {
+margin-left: 300px;
+margin-right: 300px;
+}
+/* 除table以外的 */
+.div2{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+.div3 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/* 导航条 */
+.navig {
+    width: 800px;
+    margin: auto;
+    /* 左内边距，为了nav里居中显示 */
+    padding-left: 140px;
+    
+}
+nav {
+    margin-top: 15px;
+    height: 70px;
+    background-color: rgb(231, 238, 236);
+}
+
+.navig li {
+    font-size: 25px;
+    float: left;
+    list-style: none;
+    padding-left: 70px;
+    padding-right: 80px;
+    padding-top: 1px;
+    height: 45px;
+    /* 边框 border: rgb(70, 75, 75) 1px solid; */
+}
+.navig li:hover {
+    background-color: rgb(87, 141, 141);
+}
+
+/* 论文页的导航 */
+.navig1 {
+    
+    width: 200px;
+    background-color: rgb(231, 238, 236);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: auto;
+
+}
+
+
